@@ -25,13 +25,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 4. Read the activity_labels.txt file and make all names to lower cases. Then, uses descriptive activity names to name the activities in the data set.
 
- 	V1	V2
-1	1	walking
-2	2	walkingupstairs
-3	3	walkingdownstairs
-4	4	sitting
-5	5	standing
-6	6	laying
+ 	
 
 5. Combine the datX, datS and datY by column to a new 10299x68 data frame, called data. Name the first two colums, "subject" and "activity".
 6. Finally, generate a second independent tidy data set with the average of each measurement for each activity and each subject. It is a 180x68 data frame. There are 30 unique subjects and 6 unique activites, which reult in a 180 combinations of the subject and activites. 
